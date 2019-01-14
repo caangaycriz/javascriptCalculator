@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Calculator</title>
+<style>
+#text1,#text2{
+ 
+}
+button{
+width:50px;
+height:30px;
+color: pink;
+font-size: 20px;
+font-family: arial;
+background-color: gray;
+
+.h1{
+	color: black;
+	text-shadow: pink;
+}
+}
+</style>
+</head>
+<body>
+<center>
+	<h1>Calculator</h1>
+	<input type="text" id="text1" placeholder="0" style="text-align:right;"/>
+	<br>
+	<br>
+	<button type="button" value="1" onClick="event1(this.value)">1</button>
+	<button type="button" value="2" onClick="event1(this.value)">2</button>
+	<button type="button" value="3" onClick="event1(this.value)">3</button>
+	<button type="button" value="4" onClick="event1(this.value)">4</button>
+	<br>
+	<br>
+	<button type="button" value="5" onClick="event1(this.value)">5</button>
+	<button type="button" value="6" onClick="event1(this.value)">6</button>
+	<button type="button" value="7" onClick="event1(this.value)">7</button>
+	<button type="button" value="8" onClick="event1(this.value)">8</button>
+	<br>
+	<br>
+	<button type="button" value="9" onClick="event1(this.value)">9</button>
+	<button type="button">0</button>
+	<button type="button">.</button>
+	<button type="button"   onClick="event2()" >=</button>
+	<br>
+	<br>
+	<button type="button" value="/" onClick="event1(this.value)">/</button>
+	<button type="button" value="*"  onClick="event1(this.value)">*</button>
+	<button type="button" value="-"  onClick="event1(this.value)">-</button>
+	<button type="button" value="+" onClick="event1(this.value)">+</button>
+	<br>
+	<br>
+	<button type="button"   onClick="clear" style="width: 50px; height: 30px; font-size: 15px;">clear</button>
+	
+
+</center>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
